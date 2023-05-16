@@ -1,0 +1,126 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 27622124300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify the sort by product name filter",
+        "description": "",
+        "id": "womenpage-test;verify-the-sort-by-product-name-filter",
+        "after": [
+          {
+            "result": {
+              "duration": 1951360300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1567288700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "GearPageTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 460153900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I mouse hover on women menu",
+            "match": {
+              "location": "WomenPageTestSteps.iMouseHoverOnWomenMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188132300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on Tops",
+            "match": {
+              "location": "WomenPageTestSteps.iMouseHoverOnTops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2639194000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on jackets",
+            "match": {
+              "location": "WomenPageTestSteps.iClickOnJackets()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130555600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select sort by filter product name",
+            "match": {
+              "location": "WomenPageTestSteps.iSelectSortByFilterProductName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 861618700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify products name display in alphabetical order",
+            "match": {
+              "location": "WomenPageTestSteps.iVerifyProductsNameDisplayInAlphabeticalOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanity"
+          },
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "WomenPage Test",
+    "description": "As a user i should verify product and price name filter",
+    "id": "womenpage-test",
+    "keyword": "Feature",
+    "uri": "WomenPageTest.feature"
+  }
+]
